@@ -23,7 +23,7 @@ public class Charts extends JFrame{
 		ChartPanel chartPanel = new ChartPanel(ch);
 		ch.removeLegend();
 		chartPanel.setPreferredSize(new Dimension(500, 300));
-		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
 		setContentPane(chartPanel);
 		setVisible(true);
 		pack();

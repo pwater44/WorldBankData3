@@ -52,14 +52,6 @@ public class Methods {
 	 */
 	// use of String[] args array
 	public static void main(String[] args) {
-		System.out.println("Hi");
-		if (args.length > 0) {
-			System.out.println("The first argument is " + args[0]);
-		} else {
-			System.out.println("You can add arguments");
-
-		}
-		// instantiate this class
 		new Methods();
 
 	}
